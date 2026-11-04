@@ -1,0 +1,20 @@
+{
+  "name": "pw-cold-call-academy",
+  "interface": {
+    "displayName": "PW Consulting Plugins"
+  },
+  "plugins": [
+    {
+      "name": "pw-consulting-cold-call-academy",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pw-consulting-cold-call-academy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
