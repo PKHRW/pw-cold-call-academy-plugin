@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Philipp Wegner"
+  },
+  "description": "T\u00e4glicher deutschsprachiger Voice-Trainer f\u00fcr realistische Cold Calls mit Versicherungsagenturinhabern. Trainiert Opener, Gespr\u00e4chsf\u00fchrung, Einwandbehandlung und Terminierung auf Basis des PW \u00d7 MRM Cold-Call-Playbooks.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Start",
+          "Start \u2013 Level 2 \u2013 3 Calls",
+          "Start \u2013 Zufall \u2013 5 Calls"
+        ],
+        "developerName": "Philipp Wegner",
+        "displayName": "PW Consulting | Cold Call Academy",
+        "longDescription": "T\u00e4glicher deutschsprachiger Voice-Trainer f\u00fcr realistische Cold Calls mit Versicherungsagenturinhabern. Trainiert Opener, Gespr\u00e4chsf\u00fchrung, Einwandbehandlung und Terminierung auf Basis des PW \u00d7 MRM Cold-Call-Playbooks.",
+        "shortDescription": "Dein t\u00e4gliches Call-Warm-up"
+      }
+    }
+  },
+  "keywords": [
+    "cold-call",
+    "versicherungen",
+    "vertrieb",
+    "deutsch",
+    "voice-training"
+  ],
+  "name": "pw-consulting-cold-call-academy",
+  "version": "0.1.0"
+}
